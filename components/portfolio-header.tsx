@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react"
 import Link from "next/link"
-import { Menu, X } from "lucide-react"
+import { Menu, X, Download} from "lucide-react"
 import { cn } from "@/lib/utils"
 import { getNavItems, getPersonalInfo } from "@/lib/data"
 
@@ -53,7 +53,7 @@ export function PortfolioHeader() {
     <header
       className={cn(
         "fixed top-0 left-0 right-0 z-50 transition-all duration-300 py-4",
-        scrolled ? "bg-zinc-900/90 backdrop-blur-md shadow-md py-2" : "bg-transparent",
+        scrolled ? "bg-zinc-900/90 shadow-md py-2" : "bg-transparent",
       )}
     >
       <div className="container mx-auto px-4 flex items-center justify-between">
@@ -97,6 +97,24 @@ export function PortfolioHeader() {
               </Link>
             )
           })}
+
+          <a
+            href="/Mrunal_Munjamkar_SDE_Resume.pdf"
+            download
+            className="px-3 py-2 text-sm relative group transition-all duration-300 text-zinc-400 hover:text-white flex items-center gap-2"
+            aria-label="Download Resume"
+          >
+            <span className="relative z-10 flex items-center gap-2">
+              <Download className="w-4 h-4" />
+              Resume
+            </span>
+
+            {/* Hover effect - subtle background glow */}
+            <span className="absolute inset-0 bg-cyan-500/0 rounded-md group-hover:bg-cyan-500/10 transition-all duration-300"></span>
+
+            {/* Hover effect - bottom border */}
+            <span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-0 h-0.5 bg-gradient-to-r from-cyan-400 to-blue-500 transition-all duration-300 group-hover:w-4/5"></span>
+          </a>
         </nav>
 
         {/* Mobile Menu Button */}
@@ -148,6 +166,27 @@ export function PortfolioHeader() {
               </Link>
             )
           })}
+          
+          <a
+            href="/Mrunal_Munjamkar_SDE_Resume.pdf"
+            download
+            className="px-3 py-4 text-lg border-b border-zinc-800 relative group transition-all duration-300 text-zinc-300 hover:text-white hover:pl-5 flex items-center gap-2"
+            aria-label="Download Resume"
+            onClick={() => setMobileMenuOpen(false)}
+            style={{
+              transitionDelay: `${navItems.length * 50}ms`,
+              transform: mobileMenuOpen ? "translateX(0)" : "translateX(20px)",
+              opacity: mobileMenuOpen ? 1 : 0,
+            }}
+          >
+            <span className="relative z-10 flex items-center gap-2">
+              <Download className="w-4 h-4" />
+              Resume
+            </span>
+
+            {/* Hover effect - left border accent */}
+            <span className="absolute left-0 top-1/2 -translate-y-1/2 w-0 h-1/2 bg-gradient-to-b from-cyan-400/20 to-blue-500/20 transition-all duration-300 group-hover:w-1"></span>
+          </a>
         </nav>
       </div>
     </header>
