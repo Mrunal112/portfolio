@@ -203,19 +203,8 @@
       "Tailwind CSS",
       "Hono"
     ],
-    "databasesAndORMs": [
-      "PostgreSQL",
-      "MongoDB",
-      "Prisma",
-      "Redis"
-    ],
-    "developerTools": [
-      "Git",
-      "Docker",
-      "AWS",
-      "NGNIX",
-      "CI/CD pipelines"
-    ],
+    "databasesAndORMs": ["PostgreSQL", "MongoDB", "Prisma", "Redis"],
+    "developerTools": ["Git", "Docker", "AWS", "NGNIX", "CI/CD pipelines"],
     "backendConcepts": [
       "REST APIs",
       "Serverless",
@@ -226,12 +215,6 @@
       "OpenAPI",
       "Rate Limiting"
     ],
-    "design": [
-      "HTML5",
-      "CSS",
-      "Responsive Design",
-      "Bootstrap",
-      "ShadCN"
-    ]
+    "design": ["HTML5", "CSS", "Responsive Design", "Bootstrap", "ShadCN"]
   }
 }
