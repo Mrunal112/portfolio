@@ -1,0 +1,237 @@
+{
+  "meta": {
+    "title": "Mrunal Munjamkar | Software Engineer",
+    "description": "Portfolio website showcasing full-stack development work and technical expertise"
+  },
+  "personal": {
+    "name": "Mrunal Munjamkar",
+    "title": "Software Engineer",
+    "location": "Pune, India",
+    "avatar": "/mrunal-avatar.png",
+    "email": "mrunalmunjamkar01@gmail.com",
+    "phone": "+91-9421672587",
+    "availableForWork": true,
+    "badges": ["Web Developer", "Cloud Engineer", "DevOps Engineer"],
+    "social": [
+      {
+        "platform": "GitHub",
+        "url": "https://github.com/Mrunal112",
+        "icon": "Github"
+      },
+      {
+        "platform": "LinkedIn",
+        "url": "https://www.linkedin.com/in/mrunal-munjamkar/",
+        "icon": "Linkedin"
+      },
+      {
+        "platform": "Email",
+        "url": "mailto:mrunalmunjamkar01@gmail.com",
+        "icon": "Mail"
+      }
+    ]
+  },
+  "about": {
+    "bio": "Software Engineer focused on creating secure, scalable, and user-centric applications. Experienced in modern web frameworks and backend technologies, with strong skills in SQL tuning, API design, and AWS cloud infrastructure. I thrive in Agile teams, enjoy solving complex problems, and am committed to continuous learning and innovation.",
+    "focus": [
+      "Building scalable full-stack applications with modern frameworks",
+      "Optimizing SQL queries and database performance for large-scale applications",
+      "Implementing secure, performant features in Agile development environments"
+    ],
+    "languages": [
+      {
+        "name": "English",
+        "proficiency": "Fluent",
+        "level": 90,
+        "flag": "🇺🇸"
+      },
+      {
+        "name": "Hindi",
+        "proficiency": "Native",
+        "level": 100,
+        "flag": "🇮🇳"
+      },
+      {
+        "name": "Marathi",
+        "proficiency": "Native",
+        "level": 100,
+        "flag": "🇮🇳"
+      }
+    ],
+    "interests": [
+      "Full-Stack Development",
+      "Cloud Computing",
+      "Database Optimization",
+      "Agile Methodologies",
+      "Open Source"
+    ]
+  },
+  "navigation": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Experience",
+      "href": "#experience"
+    },
+    {
+      "label": "Credentials",
+      "href": "#credentials"
+    },
+    {
+      "label": "Skills",
+      "href": "#skills"
+    },
+    {
+      "label": "Projects",
+      "href": "#projects"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Technical Analyst",
+      "company": "IQVIA",
+      "period": "06/2024 - Present",
+      "description": "Led end-to-end project delivery, from designing front-end interfaces with Vue.js and Quasar to implementing backend services with Python and optimizing SQL queries, ensuring efficient data retrieval and processing for large-scale applications.",
+      "achievements": [
+        "Configured and managed AWS EC2 instances for hosting internal dashboards and backend services",
+        "Collaborated with cross-functional teams to define requirements, successfully delivering tailored solutions for clients",
+        "Delivered secure, performant features in an Agile team environment"
+      ],
+      "technologies": [
+        "Vue.js",
+        "Quasar",
+        "Python",
+        "Node.js",
+        "Redis",
+        "PostgreSQL",
+        "NGINX",
+        "AWS"
+      ]
+    },
+    {
+      "title": "Web Developer Intern",
+      "company": "Leap Scholar",
+      "period": "09/2023 - 01/2024",
+      "description": "Built full-stack modules with React, Node, Express, PostgreSQL for internal proper management of courses as well as for the users with filters based on requirements like blog, courses, city.",
+      "achievements": [
+        "Developed full-stack features using React, Node, Express, and PostgreSQL to manage courses and users",
+        "Implemented dynamic filtering by blog, course type, city, and college",
+        "Integrated AWS services and TypeScript for better scalability"
+      ],
+      "technologies": [
+        "React",
+        "Node.js",
+        "Express",
+        "PostgreSQL",
+        "AWS",
+        "TypeScript"
+      ]
+    },
+    {
+      "title": "SQL Developer Intern",
+      "company": "Celebal Technologies",
+      "period": "05/2023 - 07/2023",
+      "description": "Wrote optimized SQL queries and supported data pipelines. Utilized SQL queries to efficiently sort and organize project data, enabling streamlined data analysis.",
+      "achievements": [
+        "Wrote optimized SQL queries for production-level data processing",
+        "Ensured query performance and indexing for large datasets",
+        "Supported data pipeline development and maintenance"
+      ],
+      "technologies": ["SQL", "Data Analysis", "Database Optimization"]
+    }
+  ],
+  "credentials": {
+    "certifications": [
+      {
+        "name": "Oracle Cloud Infrastructure 2025 Certified Foundations Associate",
+        "issuer": "Oracle",
+        "year": "2025",
+        "verificationUrl": "https://catalog-education.oracle.com/ords/certview/sharebadge?id=84EDE5CEAC0C3C252BC8288DD6C276A3094252C82D237346BDA1EE1650605C06",
+        "logo": "/oracle-foundations-associate.png"
+      },
+      {
+        "name": "AWS Academy Graduate - AWS Academy Cloud Architecture",
+        "issuer": "AWS Academy",
+        "year": "2024",
+        "verificationUrl": "https://www.credly.com/badges/0e463b64-5d22-4fac-a5ff-a146322b89b2/",
+        "logo": "/aws-cloud-architecture.png"
+      },
+      {
+        "name": "AWS Academy Graduate - AWS Academy Cloud Foundations",
+        "issuer": "AWS Academy",
+        "year": "2024",
+        "verificationUrl": "https://www.credly.com/badges/129536c2-2944-409b-b119-e4f5c62d73f0/",
+        "logo": "/aws-cloud-foundations.png"
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor of Engineering in Electronics and Telecommunication",
+        "institution": "MIT Academy of Engineering",
+        "year": "2020-2024",
+        "logo": "/mit-academy-logo.jpg"
+      }
+    ],
+    "skills": [
+      "Full-Stack Development",
+      "Cloud Computing",
+      "System Design",
+      "Database Design",
+      "API Development",
+      "SQL Optimization",
+      "Agile Development",
+      "Problem Solving",
+      "Team Leadership"
+    ]
+  },
+  "technicalSkills": {
+    "languages": [
+      "C",
+      "C++",
+      "Python",
+      "JavaScript",
+      "TypeScript",
+      "SQL",
+      "NoSQL"
+    ],
+    "frameworks": [
+      "React",
+      "Next.js",
+      "Node.js",
+      "Express",
+      "Tailwind CSS",
+      "Hono"
+    ],
+    "databasesAndORMs": [
+      "PostgreSQL",
+      "MongoDB",
+      "Prisma",
+      "Redis"
+    ],
+    "developerTools": [
+      "Git",
+      "Docker",
+      "AWS",
+      "NGNIX",
+      "CI/CD pipelines"
+    ],
+    "backendConcepts": [
+      "REST APIs",
+      "Serverless",
+      "WebSockets",
+      "Message Queues",
+      "Pub/Sub",
+      "Load Balancers",
+      "OpenAPI",
+      "Rate Limiting"
+    ],
+    "design": [
+      "HTML5",
+      "CSS",
+      "Responsive Design",
+      "Bootstrap",
+      "ShadCN"
+    ]
+  }
+}
